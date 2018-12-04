@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <style>
+    html {
+      font-family: sans-serif;
+    }
+    body {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+    }
+    header {
+      background-color: #222;
+      display: flex;
+      justify-content: space-between;
+    }
+    header > div {
+      display: flex;
+      
+      justify-content: center;
+    }
+    header > h1 {
+      padding: 1rem;
+      color: white;
+    }
+    article {
+      max-width: 50%;
+    }
+    .warning > p {
+      border: 1px solid red;
+      background-color: #ffa3a3;
+      padding: 0.5rem;
+      display: inline;
+    }
+    main {
+      flex: 1;
+      padding: 1rem 2rem;
+    }
+    footer {
+      background-color: #222;
+      padding: 1rem;
+    }
+    footer > a > img {
+      height: 1.5rem;
+    }
+    article  > img {
+      height: 15rem;
+    }
+    footer > a {
+      cursor: pointer;
+    }
+  </style>
+  <body>
+    <header><h1>My portfolio</h1></header>
+    <main>
+      <div class="warning">
+        <p>90's warning! Website under construction.</p>
+      </div>
+      <article>
+        <h2>About me</h2>
+        <p>
+          Hello friend. I am Eelis Immanuel. I like coffee, especially with
+          Oatly iKaffe. I work as a web developer and i have cool AWS-stickers
+          in my laptop. Recently i have been working with Angular 7 in various
+          projects.
+        </p>
+        <h2>What i do?</h2>
+        <ul>
+          <li>Javascript</li>
+          <li>Typescript</li>
+          <li>Angular 7</li>
+          <li>Ngrx Angular state management</li>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>Data visualization with ngx-charts and plotly.js</li>
+        </ul>
+        <h2>What i want to do?</h2>
+        <p>
+          I am very interested in Amazon Web Service's serverless solutions. I
+          also want to develop user friendly and accessible websites and
+          applications.
+        </p>
+          <img src="./IrishWolfhound.png" alt="IrishWolfhound" />
+      </article>
+    </main>
+    <footer> <a href="https://www.linkedin.com/in/eelis-piiril%C3%A4-834203141/"><img src="./In-White-94px-TM.png" alt="linkedInLogo" /></a></footer>
+  </body>
+</html>
